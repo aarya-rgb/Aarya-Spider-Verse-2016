@@ -24,16 +24,23 @@ header {
   padding: 40px 20px;
   background: radial-gradient(circle, #68121c, #080910 75%);
 }
-h1 { color: #ff3348; font-size: clamp(38px, 7vw, 65px); }
+h1 {
+  color: #ff3348;
+  font-size: clamp(38px, 7vw, 65px);
+}
 .photo {
-  width: min(90%, 650px);
+  width: min(90%, 760px);
   border: 3px solid #e32636;
   border-radius: 18px;
   box-shadow: 0 0 25px #e32636;
 }
+.credit {
+  color: #aaa;
+  font-size: 12px;
+}
 .info { padding: 25px; }
 .info p { color: #ddd; font-size: 18px; }
-a {
+.home {
   display: inline-block;
   margin: 25px;
   padding: 15px 25px;
@@ -54,9 +61,12 @@ a {
 <p>YOUR FRIENDLY NEIGHBORHOOD SPIDER-MAN</p>
 
 <img class="photo"
-src="https://images.unsplash.com/photo-1635863138275-d9b33299680b?w=900"
-alt="Spider-Man inspired artwork">
+src="https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Holland_spider-man.jpg"
+alt="Tom Holland in his Spider-Man suit">
 
+<p class="credit">
+Image by Drpepper222, Wikimedia Commons, CC BY-SA 4.0
+</p>
 </section>
 
 <section class="info">
@@ -66,7 +76,7 @@ alt="Spider-Man inspired artwork">
 <p>🕸️ Web Slinging</p>
 <p>🕷️ Spider Sense</p>
 <p>💪 Super Strength</p>
-<a href="index.html">← BACK TO HOME</a>
+<a class="home" href="index.html">← BACK TO HOME</a>
 </section>
 
 </body>
