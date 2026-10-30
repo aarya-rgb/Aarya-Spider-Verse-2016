@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aarya's Spider-Verse</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #080910;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 22px;
+  background: #130b12;
+  border-bottom: 2px solid #e32636;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo { color: #ff3348; font-size: 23px; font-weight: bold; }
+nav a { color: white; text-decoration: none; margin-left: 15px; }
+.hero {
+  min-height: 480px;
+  padding: 100px 25px;
+  text-align: center;
+  background: radial-gradient(circle, #68121c, #080910 70%);
+}
+.hero h1 { font-size: clamp(38px, 8vw, 75px); margin: 0; }
+.hero h1 span { color: #ff3348; }
+.hero p { color: #ddd; font-size: 18px; }
+button {
+  padding: 14px 25px;
+  background: #e32636;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+section { padding: 45px 20px; text-align: center; }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #171923;
+  border: 1px solid #9b2435;
+  border-radius: 14px;
+  padding: 28px;
+  width: 250px;
+}
+.card h3 { color: #ff5264; }
+footer { padding: 25px; text-align: center; color: #aaa; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🕷 AARYA'S SPIDER-VERSE</div>
+  <nav>
+    <a href="#heroes">Heroes</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>WELCOME TO THE <span>SPIDER-VERSE</span></h1>
+  <p>One universe. Many heroes. Unlimited possibilities.</p>
+  <button onclick="document.getElementById('heroes').scrollIntoView({behavior:'smooth'})">
+    EXPLORE THE UNIVERSE
+  </button>
+</div>
+
+<section id="heroes">
+  <h2>🕷 MEET THE SPIDER-HEROES</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Peter Parker</h3>
+      <p>The Friendly Neighborhood Spider-Man.</p>
+    </div>
+    <div class="card">
+      <h3>Miles Morales</h3>
+      <p>The spectacular Spider-Man with unique powers.</p>
+    </div>
+    <div class="card">
+      <h3>Aarya</h3>
+      <p>The creator of this Spider-Verse!</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>👑 ABOUT AARYA</h2>
+  <p>Welcome to my personal Spider-Man universe!</p>
+  <p>Created by Aarya ❤️</p>
+</section>
+
+<footer>
+  AARYA'S SPIDER-VERSE © 2026
+</footer>
+</body>
+</html>
