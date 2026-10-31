@@ -4,8 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aarya - Spider-Verse</title>
+<title>Aarya | Spider-Verse</title>
+
 <style>
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background: #080910;
@@ -13,50 +18,146 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 header {
-  padding: 30px;
-  background: linear-gradient(120deg, #b00020, #10101c);
+  padding: 40px 20px;
+  background: linear-gradient(120deg, #d00028, #090910);
+  border-bottom: 2px solid #ff304f;
 }
-h1 { font-size: 42px; }
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  margin: 0;
+  text-shadow: 0 0 20px red;
+}
+
+header p {
+  color: #ddd;
+}
+
+.hero {
+  padding: 35px 20px;
+}
+
 .photo {
-  width: 220px;
-  height: 220px;
-  margin: 30px auto;
+  width: 250px;
+  height: 250px;
+  margin: 10px auto 25px;
   border: 4px solid #ff304f;
   border-radius: 50%;
-  background: #20212c;
+  background: linear-gradient(135deg,#300010,#111);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #bbb;
+  box-shadow: 0 0 35px #ff1744;
+  font-size: 20px;
+  color: #ff8093;
 }
-section { padding: 25px; }
+
+h2 {
+  color: #ff304f;
+  letter-spacing: 2px;
+}
+
+section {
+  max-width: 750px;
+  margin: 25px auto;
+  padding: 25px;
+  background: #151621;
+  border: 1px solid #ff304f55;
+  border-radius: 15px;
+}
+
+p {
+  line-height: 1.8;
+  color: #ddd;
+}
+
+.power {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 6px;
+  background: #a00025;
+  border-radius: 20px;
+}
+
 a {
+  display: inline-block;
   color: white;
-  background: #c00025;
-  padding: 12px 22px;
+  background: #d00028;
+  padding: 13px 24px;
   border-radius: 8px;
   text-decoration: none;
+  margin-top: 15px;
 }
+
+a:hover {
+  background: #ff1744;
+}
+
+footer {
+  padding: 25px;
+  color: #888;
+}
+
 </style>
 </head>
+
 <body>
 
 <header>
   <h1>👑 AARYA</h1>
-  <p>Welcome to my Spider-Verse profile!</p>
+  <p>THE SPIDER-VERSE HAS A NEW HERO</p>
 </header>
 
-<div class="photo">
-  YOUR PHOTO HERE
+<div class="hero">
+
+  <div class="photo">
+    🕷️ AARYA
+  </div>
+
+  <h2>THE MAIN CHARACTER</h2>
+
+  <p>
+    Welcome to my universe.
+    I'm Aarya, the creator of this Spider-Verse!
+  </p>
+
 </div>
 
 <section>
-  <h2>THE CREATOR</h2>
-  <p>I'm Aarya, and this is my Spider-Verse!</p>
-  <p>Spider-Man fan. Hero creator. Dream big!</p>
-  <a href="index.html">← Back to Home</a>
+  <h2>⚡ MY SUPERPOWERS</h2>
+  <span class="power">Web Slinging</span>
+  <span class="power">Spider Sense</span>
+  <span class="power">Super Agility</span>
+  <span class="power">Courage</span>
 </section>
+
+<section>
+  <h2>🕸️ MY IDENTITY</h2>
+  <p>
+    Name: Aarya<br>
+    Universe: Aarya's Spider-Verse<br>
+    Role: Spider-Man<br>
+    Mission: Protect my universe!
+  </p>
+</section>
+
+<section>
+  <h2>🔥 MY MOTTO</h2>
+  <p>
+    "Anyone can wear the mask."
+  </p>
+</section>
+
+<section>
+  <a href="index.html">← BACK TO SPIDER-VERSE</a>
+</section>
+
+<footer>
+  AARYA'S SPIDER-VERSE © 2026
+</footer>
 
 </body>
 </html>
