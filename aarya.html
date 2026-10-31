@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aarya | Spider-Verse</title>
+<title>Aarya | Iron Spider</title>
 
 <style>
 * {
@@ -13,50 +13,68 @@
 
 body {
   margin: 0;
-  background: #080910;
+  background: #070910;
   color: white;
   font-family: Arial, sans-serif;
   text-align: center;
 }
 
 header {
-  padding: 40px 20px;
-  background: linear-gradient(120deg, #d00028, #090910);
-  border-bottom: 2px solid #ff304f;
+  padding: 45px 15px;
+  background: linear-gradient(120deg, #a90018, #11121e, #a66b00);
+  border-bottom: 3px solid #e8ae35;
 }
 
-h1 {
+header h1 {
   font-size: 48px;
   letter-spacing: 5px;
-  margin: 0;
-  text-shadow: 0 0 20px red;
+  color: #ffd36a;
+  text-shadow: 0 0 20px #ffb52e;
 }
 
 header p {
-  color: #ddd;
+  letter-spacing: 3px;
 }
 
 .hero {
   padding: 35px 20px;
 }
 
-.photo {
-  width: 250px;
-  height: 250px;
-  margin: 10px auto 25px;
-  border: 4px solid #ff304f;
-  border-radius: 50%;
-  background: linear-gradient(135deg,#300010,#111);
+.suit {
+  max-width: 380px;
+  margin: auto;
+  padding: 15px;
+  background: linear-gradient(145deg,#28000a,#171923,#352000);
+  border: 2px solid #e5a72e;
+  border-radius: 20px;
+  box-shadow: 0 0 35px #d9982766;
+}
+
+.suit img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.placeholder {
+  min-height: 340px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 35px #ff1744;
-  font-size: 20px;
-  color: #ff8093;
+  flex-direction: column;
+  gap: 15px;
+  color: #ffd36a;
+  font-size: 25px;
+  background: radial-gradient(circle,#49200c,#090a12);
+  border-radius: 12px;
+}
+
+.placeholder span {
+  font-size: 75px;
 }
 
 h2 {
-  color: #ff304f;
+  color: #ffd36a;
   letter-spacing: 2px;
 }
 
@@ -64,41 +82,42 @@ section {
   max-width: 750px;
   margin: 25px auto;
   padding: 25px;
-  background: #151621;
-  border: 1px solid #ff304f55;
+  background: #151722;
+  border: 1px solid #c68b32;
   border-radius: 15px;
 }
 
 p {
-  line-height: 1.8;
   color: #ddd;
+  line-height: 1.8;
 }
 
 .power {
   display: inline-block;
   padding: 10px 15px;
   margin: 6px;
-  background: #a00025;
+  background: linear-gradient(120deg,#8e001a,#9b641b);
   border-radius: 20px;
 }
 
-a {
+.back {
   display: inline-block;
+  background: #a90018;
   color: white;
-  background: #d00028;
-  padding: 13px 24px;
-  border-radius: 8px;
   text-decoration: none;
-  margin-top: 15px;
+  padding: 14px 25px;
+  border-radius: 9px;
+  margin: 15px;
 }
 
-a:hover {
-  background: #ff1744;
+.back:hover {
+  background: #d69a30;
+  color: black;
 }
 
 footer {
   padding: 25px;
-  color: #888;
+  color: #999;
 }
 
 </style>
@@ -108,52 +127,66 @@ footer {
 
 <header>
   <h1>👑 AARYA</h1>
-  <p>THE SPIDER-VERSE HAS A NEW HERO</p>
+  <p>THE IRON SPIDER</p>
+  <p>EARTH-2016</p>
 </header>
 
 <div class="hero">
 
-  <div class="photo">
-    🕷️ AARYA
+  <div class="suit">
+    <div class="placeholder">
+      <span>🕷️</span>
+      IRON SPIDER
+      <small>YOUR PHOTO GOES HERE</small>
+    </div>
   </div>
 
-  <h2>THE MAIN CHARACTER</h2>
+  <h2>THE NEW IRON SPIDER</h2>
 
   <p>
-    Welcome to my universe.
-    I'm Aarya, the creator of this Spider-Verse!
+    One hero. One universe. Unlimited possibilities.
+    Welcome to Aarya's Spider-Verse.
   </p>
 
 </div>
 
 <section>
-  <h2>⚡ MY SUPERPOWERS</h2>
-  <span class="power">Web Slinging</span>
+  <h2>🔴🟡 THE SUIT</h2>
+  <p>
+    Red and gold Iron Spider armour<br>
+    Advanced mechanical spider arms<br>
+    Glowing technological details<br>
+    Powerful nanotechnology
+  </p>
+</section>
+
+<section>
+  <h2>⚡ SUPERPOWERS</h2>
   <span class="power">Spider Sense</span>
+  <span class="power">Web Slinging</span>
+  <span class="power">Venom Strength</span>
   <span class="power">Super Agility</span>
-  <span class="power">Courage</span>
+  <span class="power">Nanotechnology</span>
 </section>
 
 <section>
   <h2>🕸️ MY IDENTITY</h2>
   <p>
     Name: Aarya<br>
-    Universe: Aarya's Spider-Verse<br>
-    Role: Spider-Man<br>
-    Mission: Protect my universe!
+    Hero Name: Iron Spider<br>
+    Universe: Earth-2016<br>
+    Mission: Protect the Spider-Verse
   </p>
 </section>
 
 <section>
   <h2>🔥 MY MOTTO</h2>
-  <p>
-    "Anyone can wear the mask."
-  </p>
+  <p>"Anyone can wear the mask."</p>
 </section>
 
-<section>
-  <a href="index.html">← BACK TO SPIDER-VERSE</a>
-</section>
+<a class="back" href="index.html">
+  ← BACK TO SPIDER-VERSE
+</a>
 
 <footer>
   AARYA'S SPIDER-VERSE © 2026
@@ -161,3 +194,4 @@ footer {
 
 </body>
 </html>
+
